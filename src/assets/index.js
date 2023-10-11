@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import tripleten from "./company/tripleten.png";
+import andrews from "./company/andrews.png";
+import a2ta from "./company/a2ta.jpeg";
+import aF from "./company/aF.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  tripleten,
+  andrews,
+  a2ta,
+  aF,
 };
