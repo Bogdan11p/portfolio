@@ -27,6 +27,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  postman,
+  aroundTheUs,
+  newsExplorer,
+  wtwrFront,
+  wtwrBack,
+  portfolio,
 } from "../assets";
 
 const navLinks = [
@@ -80,17 +86,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -109,16 +108,16 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Postman",
+    icon: postman,
   },
 ];
 
@@ -205,105 +204,117 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Around The U.S.",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project shows a few places in the United States and it is made for different screen sizes: desktop, tablet, and phone. It has a responsive design that was implemented through using max-width and percentages. It has grid properties and media queries to adapt to different screen sizes.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "HTML",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: aroundTheUs,
+    source_code_link: "https://github.com/Bogdan11p/se_project_aroundtheus.git",
   },
   {
-    name: "Job IT",
+    name: "News Explorer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project is a node.js news application powered by Express that provides the function to find the latest articles on any topic. It is a front-end application that allows users to search for news articles published from the day of the search up to fourteen days before.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Express",
         color: "pink-text-gradient",
       },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: newsExplorer,
+    source_code_link:
+      "https://github.com/Bogdan11p/final_project_front-end.git",
   },
   {
-    name: "Trip Guide",
+    name: "WeatherApp - front end",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The idea of the application is pretty simple - we make a call to an API, which then responds with the daily weather forecast. We collect the weather data, process it, and then based on the forecast, we recommend suitable clothing to the user.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ThirdPartyAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: wtwrFront,
+    source_code_link: "https://github.com/Bogdan11p/se_project_react.git",
+  },
+  {
+    name: "WeatherApp - back end",
+    description:
+      "This project serves as the back-end component of the WeatherApp application. It involves the development of an API with carefully configured URL routes. Additionally, a MongoDB database is created and appropriately configured to store and manage the application's data. By building the back-end infrastructure, the project enables seamless communication between the front-end and the server, allowing for efficient data retrieval, storage, and manipulation.",
+    tags: [
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wtwrBack,
+    source_code_link: "https://github.com/Bogdan11p/se_project_express.git",
+  },
+  {
+    name: "Porfolio",
+    description:
+      "I created this project to present my resume in a more detailed, interactive way and to showcase my skills.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/Bogdan11p/portfolio.git",
   },
 ];
 
-export {
-  navLinks,
-  services,
-  technologies,
-  experiences,
-  education,
-  testimonials,
-  projects,
-};
+export { navLinks, services, technologies, experiences, education, projects };

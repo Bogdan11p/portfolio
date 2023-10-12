@@ -30,6 +30,12 @@ const EducationCard = ({ education }) => {
     >
       <div>
         <h3 className="text-white text-[20px] font-bold">{education.title}</h3>
+        <p
+          className="text-secondary text-[16px] font-semibold"
+          style={{ margin: 0 }}
+        >
+          {education.company_name}
+        </p>
         <h4 className="text-secondary absolute right-5 bottom-1">
           {education.location}
         </h4>

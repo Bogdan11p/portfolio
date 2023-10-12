@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import postman from "./tech/postman.svg";
+import aroundTheUs from "./aroundTheUs.png";
+import wtwrFront from "./wtwr-front.png";
+import wtwrBack from "./wtwr-back.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -33,6 +37,8 @@ import aF from "./company/aF.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import newsExplorer from "./newsExplorer.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -67,4 +73,10 @@ export {
   andrews,
   a2ta,
   aF,
+  postman,
+  aroundTheUs,
+  newsExplorer,
+  wtwrFront,
+  wtwrBack,
+  portfolio,
 };
